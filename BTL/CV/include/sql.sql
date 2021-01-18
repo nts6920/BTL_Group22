@@ -163,7 +163,7 @@ CREATE TABLE `resume` (
 INSERT INTO `resume` (`id`, `category`, `title`, `year`, `ogname`, `workdesc`) VALUES
 (1, 'a', 'CLB Tin Học Sinh Viên', '2019-present', 'Đại Học Thủy Lợi', ''),
 (2, 'a', 'Thực tập', '2018-2020', 'FPT Company', ''),
-(3, 'a', 'Thực tập', '2020 - Present', 'VNIT Company', '');
+(3, 'b', 'Thực tập', '2020 - Present', 'VNIT Company', '');
 
 -- --------------------------------------------------------
 
