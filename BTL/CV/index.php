@@ -183,7 +183,7 @@ while($data3=mysqli_fetch_array($runquery3)){
                     <div class="col-lg-6" data-aos="fade-up">
                         <h3 class="resume-title">Education</h3>
                         <?php
-                    $query4 = "SELECT * FROM resume WHERE category='b'";
+                    $query4 = "SELECT * FROM resume WHERE category='e'";
 $runquery4= mysqli_query($db,$query4);
 while($data4=mysqli_fetch_array($runquery4)){
     ?>
@@ -201,7 +201,7 @@ while($data4=mysqli_fetch_array($runquery4)){
                         <h3 class="resume-title">Professional Experience</h3>
                         
                         <?php
-                    $query4 = "SELECT * FROM resume WHERE category='a'";
+                    $query4 = "SELECT * FROM resume WHERE category='pe'";
 $runquery4= mysqli_query($db,$query4);
 while($data4=mysqli_fetch_array($runquery4)){
     ?>
